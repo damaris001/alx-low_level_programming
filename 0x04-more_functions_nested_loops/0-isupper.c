@@ -6,7 +6,7 @@
  * Return: 0 if successful
  */
 
- int _isupper(int c)
+int _isupper(int c)
 {
 	if (c >= 65 && c < 91)
 	{
