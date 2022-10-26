@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strncat - Function that concatenates two strings
+ * _strncat - Function that concatenates two strings.
  * @dest: first string
  * @src: second string
  * @n: number of bytes to concatenate
@@ -19,7 +19,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		length++;
 	}
-	for (j = 0; j < n && src[j] != '\0'; j++; length++)
+	for (j = 0; j < n && src[j] != '\0'; j++, length++)
 	{
 		dest[length] = src[j];
 	}
